@@ -12,10 +12,6 @@ TOKENIZER = pickle.load(open('../models/tokenizer.pickle','rb'))
 with open('../models/response.json') as response_data:
   responses = json.load(response_data)
 
-def string_preprocessing(text):
-  text = re.sub(r'[^\w\s]', '', text)
-  return text.lower()
-
 def predictionProc(text):
   max_length = 30
   trunc_type='post'
