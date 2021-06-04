@@ -16,14 +16,11 @@ def server_check():
 @app.route('/predict', methods=['POST'])
 def predictor():
   try:
-    content = request.json
-    requested_data = content['data']
-    with open('../dataset/dataset.json') as json_data:
-      intents = json.load(json_data)
-      pred = predictionProc(requested_data)
+    content = request.json["data"]
+    pred = predictionProc(content)
   except:
-    logging.exception("The JSON request or file is broken.")
-    return jsonify(status='error', predict=-1, data=content['data'])
+    logging.exception("The JSON request is broken.")
+    return jsonify(status='error', predict=-1, data=content)
 
   return jsonify(status='ok', predict=pred, data=content['data'])
 
