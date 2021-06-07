@@ -1,0 +1,77 @@
+{ "intents": [
+    {
+        "intent": "tunggu",
+        "utterances": ["tunggu",
+            "tunggu sebentar ya min",
+            "tunggu bentar ya",
+            "mohon ditunggu ya",
+            "bentar min",
+            "sebentar ya",
+            "tunggu ya min",
+            "mohon tunggu sebentar",
+            "tunggu ya",
+            "tunggu sebentar"
+        ],
+        "answers": ["Oke, admin tunggu ya."]
+    },  {
+        "intent": "SelamatTinggal",
+        "utterances": [
+            "terima kasih min",
+            "terima kasih sudah membantu",
+            "terima kasih informasinya",
+            "makasih buat bantuannya",
+            "makasih min",
+            "terima kasih bantuannya min",
+            "sampai jumpa min. terima kasih bantuannya",
+            "terima kasih untuk bantuannya. sangat membantu",
+            "makasih ya",
+            "terima kasih"
+        ],
+        "answers": ["Terima kasih sudah menggunakan aplikasi GovIT. Semoga membantu ya"]
+    }, {
+        "intent": "service.membuat",
+        "utterances": [
+            "Cara membuat ktp",
+            "Permisi pak, apa saja persyaratan pembuatan KTP ?",
+            "Saya ingin membuat ktp, bagaimana sop-nya?",
+            "Apa yang harus saya persiapkan untuk membuat KTP",
+            "Halo, saya ingin membuat KTP, syarat yang diperlukan apa saja ya? Terimakasih",
+            "Untuk prosedurnya bagaimana ya apabila ingin membuat KTP?",
+            "Saya ingin membuat KTP, persyaratan apa saja yang diperlukan?",
+            "Jika ingin membuat ktp, persyaratan apa saja yang harus saya penuhi?",
+            "Syarat buat KTP",
+            "saya ingin membuat ktp, persyaratan apa saja yang diperlukan dan harus bagaimana apakah ke kelurahan dulu atau langsung ke desa?"
+        ],
+        "answers": ["Untuk persyaratan pembuatan KTP, pastikan usiamu minimal 17 tahun ya.\nAdapun berkas yang perlu disiapkan, yaitu:\n1. Surat Pengantar RT/RW\n2. Fotokopi KK\n3.Fotokopi Akta Kelahiran\n4. Surat keterangan pindah dari kota asal jika Anda bukan warga asli setempat\n5. Surat keterangan pindah dari luar negeri, dan surat ini harus diterbitkan oleh Instansi Pelaksana jika Anda datang dari luar negeri karena pindah.\nKemudian Anda bisa datang langsung ke kantor kecamatan domisili Anda dengan membawa berkas-berkas di atas untuk diserahkan kepada petugas kecamatan dan melakukan pengambilan pas foto dan sidik jari. Setelah proses tersebut selesai, Anda akan diberikan surat pengantar yang akan digunakan untuk mengambil e-KTP nanti. Tunggu maksimal 14 hari kerja untuk memperoleh e-KTP."]
+    },{
+        "intent": "service.update",
+        "utterances": [
+            "saya warga pindahan dan ingin memperbarui ktp. bagaimana caranya?",
+            "status saya sekarang sudah menikah. bagaimana memperbarui status tersebut di ktp?",
+            "bagaimana memperbarui ktp saya?",
+            "cara memperbarui ktp gimana ya?",
+            "min saya ingin memperbarui ktp saya. bagaimana caranya?",
+            "saya ingin memperbarui ktp saya",
+            "memperbarui ktp",
+            "cara memperbarui ktp",
+            "alamat saya sudah pindah dan saya ingin memperbarui ktp",
+            "saya ingin memperbarui ktp"
+        ],
+        "answers": ["Untuk memperbarui informasi di e-KTP, Anda perlu menyiapkan e-KTP yang lama dan dokumen pendukung untuk data yang akan diubah seperti:\n-Surat nikah/putusan pengadilan untuk ganti status perkawinan\n-Surat keterangan RT/RW untuk pindah alamat domisili. Bisa diurus hingga tingkat kelurahan.\n-Ijazah, jika ingin menambah gelar\n-Surat keterangan dari instansi untuk mengubah status pekerjaan\n-Akta kelahiran\n-Fotokopi salinan surat keterangan dari pemuka agama untuk mengubah data agama jika ada perbedaan data.\nKemudian Anda dapat membawa berkas-berkas tadi ke Dinas Kependudukan dan Pencatatan Sipil (Dukcapil), beberapa wilayah sudah bisa diurus di tingkat kelurahan tempat domisili Anda. Setelah petugas memperoleh persyaratan yang diperlukan, petugas akan memberikan resi untuk pengambilan e-KTP nanti. Tunggu maksimal 14 hari kerja untuk memperoleh e-KTP baru dengan membawa e-KTP lama, KK, dan resi."]
+    },{
+        "intent": "service.hilang",
+        "utterances": [
+            "saya baru saja kehilangan ktp. bagaimana memperolehnya kembali?",
+            "ktp saya hilang. bagaimana mengurusnya?",
+            "saya kehilangan ktp",
+            "ktp saya telah hilang. bisakah saya membuatnya kembali?",
+            "apakah saya dapat membuat ktp kembali karena ktp lama saya hilang?",
+            "ktp saya hilang",
+            "bagaimana mengurus ktp yang hilang?",
+            "mengurus ktp hilang",
+            "cara mengurus ktp yang hilang",
+            "bisakah saya memperoleh kembali ktp karena ktp sebelumnya hilang?"
+        ],
+        "answers" : ["Untuk mengurus e-KTP yang hilang, terdapat beberapa langkah yang perlu dilakukan, yaitu:\n1. Datang ke kantor kepolisian terdekat untuk membuat laporan kehilangan KTP dan meminta untuk dibuatkan surat keterangan kehilangan. Jika ada, bawa fotokopi KTP yang hilang untuk ditunjukkan di kantor polisi.\n2. Membuat surat pengantar dari RT dan RW di lingkungan tempat tinggal kita, lengkap dengan stempel RT/RW dan tanda tangan ketua RT/RW.\n3. Selanjutnya ke kantor kelurahan atau balai desa dengan membawa berkas-berkas yang telah dibuat sebelumnya, antara lain Surat Keterangan Kehilangan E-KTP dari kepolisian, surat pengantar dari RT/RW, Pas foto ukuran 3×4 sebanyak 2 lembar dan fotokopi KTP yang hilang jika ada.\n4. Pihak kelurahan akan memberikan surat pengantar dan formulir permohonan E-KTP baru untuk dibawa ke kantor kecamatan.\n5. Setelah urusan di kantor kelurahan beres, tahap berikutnya adalah datang ke kantor kecamatan atau dinas kependudukan, dengan membawa dokumen-dokumen persyaratan penerbitan ulang E-KTP menggantikan E-KTP yang hilang berupa: Pas foto ukuran 4×6 sebanyak 2 lembar, Fotokopi KK (Kartu Keluarga), Fotokopi e-KTP yang hilang (jika ada), Surat pengantar dari kelurahan, Formulir permohonan E-KTP baru dari kelurahan.\n5. Semua berkas persyaratan tersebut akan diperiksa dan diverifikasi oleh petugas kantor kecamatan. Lamanya proses pembuatan E-KTP baru sebagai pengganti KTP yang hilang sekitar 7 hari kerja. Jika sudah jadi, pemilik E-KTP wajib mengambil sendiri dengan mendatangi kantor kecamatan. Tidak boleh diwakilkan karena kantor kecamatan memerlukan verifikasi sidik jari pemilik e-KTP tersebut."]
+    }]
+}
