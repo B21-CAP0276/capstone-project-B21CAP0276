@@ -77,8 +77,8 @@ For **Android App Development** commit history, please kindly check the [android
 11. Click **Next**.
 12. Chek **Dockerfile** in Build Type section and keep in default.
 13. Click **Save**.
-14. Back to Cloud Run - Create Service. Click **Next**.
-15. For authentication please check on **Allow unauthenticated invocations**. After that click **Create**.
+14. Back to **Cloud Run** - Create Service. Click **Next**.
+15. For authentication please check on **Allow unauthenticated invocations** to allow all incoming connection. After that click **Create**.
 16. This process (build artifact) will take 5-10 minutes.
 
 Happy Testing
