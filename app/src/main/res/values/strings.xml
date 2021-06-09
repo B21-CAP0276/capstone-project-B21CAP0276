@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">VCS App</string>
+    <string name="this_is_a_sample_message">This is a sample message</string>
+    <string name="type_a_message">Type a message</string>
+    <string name="hi_my_message">Hi, my message</string>
+    <string name="_12_00_pm">12:00 PM</string>
+    <string name="hi_this_is_bot_message">Hi, this is bot message</string>
+    <string name="govit">GovIT</string>
+</resources>

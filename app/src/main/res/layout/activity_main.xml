@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.MainActivity">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_messages_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:itemCount="20"
+        android:layout_above="@+id/layout_bar"
+        android:layout_below="@id/dark_divider"/>
+
+    <view
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="#038DB9"
+        android:id="@+id/dark_divider"/>
+
+    <LinearLayout
+        android:id="@+id/layout_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:elevation="10dp"
+        android:orientation="horizontal"
+        android:background="@drawable/background_box">
+
+        <EditText
+            android:id="@+id/edt_message"
+            android:layout_width="316dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_marginStart="20dp"
+            android:autofillHints="typing"
+            android:background="@drawable/type_round_box"
+            android:hint="@string/type_a_message"
+            android:inputType="textShortMessage"
+            android:padding="10dp" />
+
+        <Button
+            android:id="@+id/btn_send"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:layout_marginEnd="20dp"
+            android:clickable="true"
+            android:background="@drawable/ic_send_button"
+            android:focusable="true" />
+    </LinearLayout>
+
+
+</RelativeLayout>
