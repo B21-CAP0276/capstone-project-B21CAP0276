@@ -1,5 +1,6 @@
 <!-- Header -->
 <br />
+<img src="https://www.dicoding.com/img/bangkit/logo.svg" />
 <p align="center">
   <h1 align="center">Virtual Customer Services for Public Services</h1>
 
